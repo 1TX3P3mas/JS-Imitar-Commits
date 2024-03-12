@@ -7,8 +7,10 @@
     --size:200px;
     width:var(--size);
     height:var(--size);
-    border:3px solid black;
+    border:5px solid red;
     transition: background-color 1s;
+    border-radius: 50%;
+    box-shadow: 2px black inset;
 }
 
 .red {
